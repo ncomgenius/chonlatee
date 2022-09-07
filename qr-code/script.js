@@ -12,7 +12,7 @@ generateBtn.addEventListener("click", () => {
     qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${qrValue}`;
     qrImg.addEventListener("load", () => {
         wrapper.classList.add("active");
-        generateBtn.innerText = "สร้าง QR-Code เรียบร้อยแล้ว";
+        generateBtn.innerText = "สร้าง QR-Code อีกครั้ง";
     });
 });
 
